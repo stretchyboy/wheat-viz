@@ -1,0 +1,19 @@
+{
+  "name": "wheat-viz",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stretchyboy/wheat-viz.git"
+  },
+  "author": "Martyn Eggleton",
+  "license": "MIT",
+  "dependencies": {
+    "basic-csv": "0.0.2",
+    "core-js": "~1.0.1"
+  }
+}

@@ -1,0 +1,470 @@
+[
+    {
+        "year": 1961,
+        "import_quantity": 3000,
+        "import_value": 300000,
+        "export_quantity": 1000,
+        "export_value": 150000,
+        "import_price": 100,
+        "export_price": 150
+    },
+    {
+        "year": 1962,
+        "import_quantity": 2979,
+        "import_value": 250000,
+        "export_quantity": 793,
+        "export_value": 70000,
+        "import_price": 84,
+        "export_price": 88
+    },
+    {
+        "year": 1963,
+        "import_quantity": 17900,
+        "import_value": 1322000,
+        "export_quantity": 2536,
+        "export_value": 217000,
+        "import_price": 74,
+        "export_price": 86
+    },
+    {
+        "year": 1964,
+        "import_quantity": 91511,
+        "import_value": 6724000,
+        "export_quantity": 15853,
+        "export_value": 1381000,
+        "import_price": 73,
+        "export_price": 87
+    },
+    {
+        "year": 1965,
+        "import_quantity": 151119,
+        "import_value": 10656000,
+        "export_quantity": 25783,
+        "export_value": 2015000,
+        "import_price": 71,
+        "export_price": 78
+    },
+    {
+        "year": 1966,
+        "import_quantity": 205163,
+        "import_value": 14556000,
+        "export_quantity": 16549,
+        "export_value": 1303000,
+        "import_price": 71,
+        "export_price": 79
+    },
+    {
+        "year": 1967,
+        "import_quantity": 206336,
+        "import_value": 14897000,
+        "export_quantity": 16699,
+        "export_value": 1345000,
+        "import_price": 72,
+        "export_price": 81
+    },
+    {
+        "year": 1968,
+        "import_quantity": 277124,
+        "import_value": 18839000,
+        "export_quantity": 12520,
+        "export_value": 973000,
+        "import_price": 68,
+        "export_price": 78
+    },
+    {
+        "year": 1969,
+        "import_quantity": 247702,
+        "import_value": 15168000,
+        "export_quantity": 12705,
+        "export_value": 830000,
+        "import_price": 61,
+        "export_price": 65
+    },
+    {
+        "year": 1970,
+        "import_quantity": 275424,
+        "import_value": 17315000,
+        "export_quantity": 21860,
+        "export_value": 1465000,
+        "import_price": 63,
+        "export_price": 67
+    },
+    {
+        "year": 1971,
+        "import_quantity": 176640,
+        "import_value": 12127000,
+        "export_quantity": 19880,
+        "export_value": 1292000,
+        "import_price": 69,
+        "export_price": 65
+    },
+    {
+        "year": 1972,
+        "import_quantity": 182288,
+        "import_value": 12998000,
+        "export_quantity": 12233,
+        "export_value": 788000,
+        "import_price": 71,
+        "export_price": 64
+    },
+    {
+        "year": 1973,
+        "import_quantity": 234218,
+        "import_value": 28223000,
+        "export_quantity": 19530,
+        "export_value": 1924000,
+        "import_price": 120,
+        "export_price": 99
+    },
+    {
+        "year": 1974,
+        "import_quantity": 181383,
+        "import_value": 38494000,
+        "export_quantity": 9106,
+        "export_value": 1768000,
+        "import_price": 212,
+        "export_price": 194
+    },
+    {
+        "year": 1975,
+        "import_quantity": 211387,
+        "import_value": 38641000,
+        "export_quantity": 26736,
+        "export_value": 4198000,
+        "import_price": 183,
+        "export_price": 157
+    },
+    {
+        "year": 1976,
+        "import_quantity": 156793,
+        "import_value": 23870000,
+        "export_quantity": 15373,
+        "export_value": 2248000,
+        "import_price": 152,
+        "export_price": 146
+    },
+    {
+        "year": 1977,
+        "import_quantity": 338415,
+        "import_value": 41208000,
+        "export_quantity": 65500,
+        "export_value": 7913000,
+        "import_price": 122,
+        "export_price": 121
+    },
+    {
+        "year": 1978,
+        "import_quantity": 247677,
+        "import_value": 33993000,
+        "export_quantity": 14803,
+        "export_value": 1933000,
+        "import_price": 137,
+        "export_price": 131
+    },
+    {
+        "year": 1979,
+        "import_quantity": 365973,
+        "import_value": 56179000,
+        "export_quantity": 25098,
+        "export_value": 4477000,
+        "import_price": 154,
+        "export_price": 178
+    },
+    {
+        "year": 1980,
+        "import_quantity": 331035,
+        "import_value": 63049000,
+        "export_quantity": 9816,
+        "export_value": 1790000,
+        "import_price": 190,
+        "export_price": 182
+    },
+    {
+        "year": 1981,
+        "import_quantity": 284593,
+        "import_value": 59371000,
+        "export_quantity": 16616,
+        "export_value": 4035000,
+        "import_price": 209,
+        "export_price": 243
+    },
+    {
+        "year": 1982,
+        "import_quantity": 135718,
+        "import_value": 24223000,
+        "export_quantity": 41491,
+        "export_value": 8471000,
+        "import_price": 178,
+        "export_price": 204
+    },
+    {
+        "year": 1983,
+        "import_quantity": 141910,
+        "import_value": 22473000,
+        "export_quantity": 45884,
+        "export_value": 9308000,
+        "import_price": 158,
+        "export_price": 203
+    },
+    {
+        "year": 1984,
+        "import_quantity": 122277,
+        "import_value": 21223000,
+        "export_quantity": 21701,
+        "export_value": 4782000,
+        "import_price": 174,
+        "export_price": 220
+    },
+    {
+        "year": 1985,
+        "import_quantity": 122473,
+        "import_value": 20996000,
+        "export_quantity": 5014,
+        "export_value": 856000,
+        "import_price": 171,
+        "export_price": 171
+    },
+    {
+        "year": 1986,
+        "import_quantity": 175434,
+        "import_value": 22316000,
+        "export_quantity": 5082,
+        "export_value": 674000,
+        "import_price": 127,
+        "export_price": 133
+    },
+    {
+        "year": 1987,
+        "import_quantity": 138025,
+        "import_value": 16985000,
+        "export_quantity": 18107,
+        "export_value": 2070000,
+        "import_price": 123,
+        "export_price": 114
+    },
+    {
+        "year": 1988,
+        "import_quantity": 287751,
+        "import_value": 39597000,
+        "export_quantity": 23194,
+        "export_value": 2974000,
+        "import_price": 138,
+        "export_price": 128
+    },
+    {
+        "year": 1989,
+        "import_quantity": 309571,
+        "import_value": 61466000,
+        "export_quantity": 79927,
+        "export_value": 18715000,
+        "import_price": 199,
+        "export_price": 234
+    },
+    {
+        "year": 1990,
+        "import_quantity": 186867,
+        "import_value": 31703000,
+        "export_quantity": 22514,
+        "export_value": 4672000,
+        "import_price": 170,
+        "export_price": 208
+    },
+    {
+        "year": 1991,
+        "import_quantity": 255471,
+        "import_value": 35064000,
+        "export_quantity": 25845,
+        "export_value": 3584000,
+        "import_price": 137,
+        "export_price": 139
+    },
+    {
+        "year": 1992,
+        "import_quantity": 231346,
+        "import_value": 38126000,
+        "export_quantity": 13600,
+        "export_value": 2243000,
+        "import_price": 165,
+        "export_price": 165
+    },
+    {
+        "year": 1993,
+        "import_quantity": 185625,
+        "import_value": 31564000,
+        "export_quantity": 2677,
+        "export_value": 480000,
+        "import_price": 170,
+        "export_price": 179
+    },
+    {
+        "year": 1994,
+        "import_quantity": 221073,
+        "import_value": 38616000,
+        "export_quantity": 7272,
+        "export_value": 1035000,
+        "import_price": 175,
+        "export_price": 142
+    },
+    {
+        "year": 1995,
+        "import_quantity": 147019,
+        "import_value": 30783000,
+        "export_quantity": 936,
+        "export_value": 219000,
+        "import_price": 209,
+        "export_price": 234
+    },
+    {
+        "year": 1996,
+        "import_quantity": 112445,
+        "import_value": 28291000,
+        "export_quantity": 858,
+        "export_value": 247000,
+        "import_price": 252,
+        "export_price": 288
+    },
+    {
+        "year": 1997,
+        "import_quantity": 134442,
+        "import_value": 27961000,
+        "export_quantity": 1381,
+        "export_value": 208000,
+        "import_price": 208,
+        "export_price": 151
+    },
+    {
+        "year": 1998,
+        "import_quantity": 127512,
+        "import_value": 21883000,
+        "export_quantity": 928,
+        "export_value": 203000,
+        "import_price": 172,
+        "export_price": 219
+    },
+    {
+        "year": 1999,
+        "import_quantity": 126594,
+        "import_value": 21410000,
+        "export_quantity": 672,
+        "export_value": 99000,
+        "import_price": 169,
+        "export_price": 147
+    },
+    {
+        "year": 2000,
+        "import_quantity": 127012,
+        "import_value": 21172000,
+        "export_quantity": 1203,
+        "export_value": 200000,
+        "import_price": 167,
+        "export_price": 166
+    },
+    {
+        "year": 2001,
+        "import_quantity": 160086,
+        "import_value": 26539000,
+        "export_quantity": 13283,
+        "export_value": 1988000,
+        "import_price": 166,
+        "export_price": 150
+    },
+    {
+        "year": 2002,
+        "import_quantity": 141324,
+        "import_value": 22825000,
+        "export_quantity": 1194,
+        "export_value": 182000,
+        "import_price": 162,
+        "export_price": 152
+    },
+    {
+        "year": 2003,
+        "import_quantity": 171929,
+        "import_value": 30251000,
+        "export_quantity": 548,
+        "export_value": 102000,
+        "import_price": 176,
+        "export_price": 186
+    },
+    {
+        "year": 2004,
+        "import_quantity": 157032,
+        "import_value": 31911000,
+        "export_quantity": 129,
+        "export_value": 39000,
+        "import_price": 203,
+        "export_price": 302
+    },
+    {
+        "year": 2005,
+        "import_quantity": 162373,
+        "import_value": 34068000,
+        "export_quantity": 443,
+        "export_value": 129000,
+        "import_price": 210,
+        "export_price": 291
+    },
+    {
+        "year": 2006,
+        "import_quantity": 156647,
+        "import_value": 31720000,
+        "export_quantity": 334,
+        "export_value": 144000,
+        "import_price": 202,
+        "export_price": 431
+    },
+    {
+        "year": 2007,
+        "import_quantity": 169901,
+        "import_value": 49773000,
+        "export_quantity": 1004,
+        "export_value": 216000,
+        "import_price": 293,
+        "export_price": 215
+    },
+    {
+        "year": 2008,
+        "import_quantity": 177374,
+        "import_value": 81953000,
+        "export_quantity": 31,
+        "export_value": 20000,
+        "import_price": 462,
+        "export_price": 645
+    },
+    {
+        "year": 2009,
+        "import_quantity": 183699,
+        "import_value": 52118000,
+        "export_quantity": 73,
+        "export_value": 48000,
+        "import_price": 284,
+        "export_price": 658
+    },
+    {
+        "year": 2010,
+        "import_quantity": 181422,
+        "import_value": 49569000,
+        "export_quantity": 55,
+        "export_value": 54000,
+        "import_price": 273,
+        "export_price": 982
+    },
+    {
+        "year": 2011,
+        "import_quantity": 170308,
+        "import_value": 65691000,
+        "export_quantity": 233,
+        "export_value": 232000,
+        "import_price": 386,
+        "export_price": 996
+    },
+    {
+        "year": 2012,
+        "import_quantity": 168394,
+        "import_value": 57898000,
+        "export_quantity": 1857,
+        "export_value": 788000,
+        "import_price": 344,
+        "export_price": 424
+    }
+]

@@ -1,0 +1,10 @@
+/* NOTE : these are complex video effects done with SVG
+    http://html5multimedia.com/code/ch10/svg-video-filters.html */
+    
+/*if we are not hovering make the video black&white*/    
+video:not(:hover) { filter:url('../video-effects.svg#blackAndWhiteMatrix'); }
+
+/*#skate {
+    mask:url('../video-effects.svg#eMask');
+    -webkit-mask-box-image:url('../video-effects.svg');
+}*/

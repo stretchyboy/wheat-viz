@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- more filters available here (click CTRL + U to see the src) http://www.paulirish.com/work/videooo.xhtml --> 
+<!-- more SVG inspiration here http://www.creativebloq.com/design/examples-svg-7112785  -->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<mask id="eMask">
+			<ellipse id="ellipse" cx="150" cy="80" rx="100" ry="80" fill="white">
+				<animate attributeName="rx" dur="3s" values="100;150;100" repeatCount="5" />
+			</ellipse>
+		</mask>
+		
+		
+        <filter id="saturate">  
+            <feColorMatrix type="saturate" values="0.2" />
+        </filter>
+        
+        
+        <filter id="hueRotate1">
+            <feColorMatrix type="hueRotate" values="20" >
+            </feColorMatrix>
+        </filter>
+
+        <filter id="hueRotate2">
+            <feColorMatrix type="hueRotate" values="40" >
+            </feColorMatrix>
+        </filter>        
+        
+        
+        
+        <filter id="hueRotate">
+            <feColorMatrix type="hueRotate" values="50" >
+              <animate attributeName="values" dur="10s" values="0;0;180;360" repeatCount="5" />
+            </feColorMatrix>
+        </filter>
+        
+        
+        
+        <filter id="luminanceToAlpha">
+            <feColorMatrix type="luminanceToAlpha" />
+        </filter>
+        <filter id="blackAndWhiteMatrix">
+            <feColorMatrix type="matrix" values="	0.3 0.3 0.3 0 0 
+                                                    0.3 0.3 0.3 0 0
+                                                    0.3 0.3 0.3 0 0
+                                                    0   0   0   1 0
+            " />
+        </filter>
+        <filter id="blur">
+            <feGaussianBlur stdDeviation="2" />
+        </filter>
+
+	</defs>
+	<use xlink:href="#ellipse"/>
+</svg>

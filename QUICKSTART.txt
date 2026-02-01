@@ -1,0 +1,138 @@
+┌─────────────────────────────────────────────────────────────┐
+│  Agricultural Trade Visualization - Quick Reference        │
+└─────────────────────────────────────────────────────────────┘
+
+🚀 SETUP (First Time Only)
+───────────────────────────────────────────────────────────────
+  ./setup.sh
+  
+  OR manually:
+  1. python3 download_wheat_data.py    # Download data
+  2. python3 process_data.py           # Process into JSON
+
+
+📖 USAGE
+───────────────────────────────────────────────────────────────
+  Interactive:
+    1. Open: output/index.html
+    2. Select crop + country
+    3. Click "Visualize"
+  
+  Direct Links:
+    output/index.html?crop=wheat&country=world
+    output/index.html?crop=rice&country=china
+    output/index.html?crop=coffee&country=brazil
+
+
+✨ FEATURES
+───────────────────────────────────────────────────────────────
+  ✓ Full-screen video with color filtering
+  ✓ Handdrawn graph overlay (Rough.js)
+  ✓ Real-time data animation
+  ✓ Shareable URLs
+  ✓ All crops from FAOSTAT (1961-2025)
+  ✓ Smart data caching
+
+
+🎨 WHAT YOU'LL SEE
+───────────────────────────────────────────────────────────────
+  • Full-screen crop timelapse video
+  • Video color changes based on import price
+  • Handdrawn graph animating over time
+  • Current year, price, and quantity displayed
+  • Smooth animations synced to video
+
+
+🔗 EXAMPLE DIRECT URLS
+───────────────────────────────────────────────────────────────
+  Wheat (Global):
+    ?crop=wheat&country=world
+  
+  Rice (China):
+    ?crop=rice&country=china
+  
+  Coffee (Brazil):
+    ?crop=coffee&country=brazil
+  
+  Corn/Maize (USA):
+    ?crop=maize&country=united_states_of_america
+
+
+📁 KEY FILES
+───────────────────────────────────────────────────────────────
+  output/index.html          → Main visualization page
+  output/visualization.js    → Visualization code
+  data/crops/                → Processed data files
+  data/cache/                → Downloaded data cache
+  output/SETUP_GUIDE.md      → Full documentation
+
+
+⚡ QUICK COMMANDS
+───────────────────────────────────────────────────────────────
+  Download all data:
+    python3 download_wheat_data.py
+  
+  Process data:
+    python3 process_data.py
+  
+  Open visualization:
+    open output/index.html              (macOS)
+    xdg-open output/index.html          (Linux)
+    start output/index.html             (Windows)
+
+
+🎛️ CONTROLS (During Visualization)
+───────────────────────────────────────────────────────────────
+  Change Selection → Return to crop/country selector
+  Fullscreen       → Toggle fullscreen mode
+  Video Controls   → Pause/play/seek
+
+
+💡 TIPS
+───────────────────────────────────────────────────────────────
+  • Data downloads once and caches (saves time!)
+  • Use direct URLs to share specific visualizations
+  • Graph roughness can be adjusted in visualization.js
+  • Works best in Chrome/Firefox
+  • Fullscreen mode for best experience
+
+
+🐛 TROUBLESHOOTING
+───────────────────────────────────────────────────────────────
+  Data not found?
+    → Run: python3 process_data.py
+  
+  Video not playing?
+    → Check: videos/ directory has .mp4 file
+    → Try different browser
+  
+  Download failed?
+    → Check internet connection
+    → Try again (might be temporary API issue)
+  
+  Graph not showing?
+    → Check browser console (F12)
+    → Verify Rough.js loaded from CDN
+
+
+📊 DATA INFO
+───────────────────────────────────────────────────────────────
+  Source:  FAOSTAT (UN FAO)
+  Years:   1961-2025
+  Metrics: Import/Export Price & Quantity
+  Crops:   All agricultural products
+  Areas:   All countries + regions
+
+
+🌐 BROWSER SUPPORT
+───────────────────────────────────────────────────────────────
+  ✓ Chrome/Edge (recommended)
+  ✓ Firefox
+  ✓ Safari
+  ✓ Opera
+  ⚠ Requires JavaScript
+
+
+═══════════════════════════════════════════════════════════════
+Need more help? See output/SETUP_GUIDE.md for full documentation
+═══════════════════════════════════════════════════════════════

@@ -133,5 +133,11 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
+# Data files
+*.zip
+*.csv
+data/*.zip
+data/*.csv
+data/temp_trade/
 
 node_modules/

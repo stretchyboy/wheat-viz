@@ -57,34 +57,52 @@
     }
     
     function loadCountries() {
-        // Load from existing countries list
-        fetch('../countries.txt')
-            .then(response => response.text())
-            .then(text => {
-                const countries = text.split('\n')
-                    .filter(c => c.trim())
-                    .sort();
-                
-                const select = document.getElementById('country-select');
-                select.innerHTML = countries.map(country => {
-                    const value = country.toLowerCase().replace(/[^a-z0-9]+/g, '_');
-                    return `<option value="${value}">${country}</option>`;
-                }).join('');
-                
-                // Set default to United Kingdom
-                select.value = 'united_kingdom';
-                
-                document.getElementById('visualize-btn').disabled = false;
-            })
-            .catch(err => {
-                console.error('Error loading countries:', err);
-                // Fallback to basic list
-                document.getElementById('country-select').innerHTML = 
-                    '<option value="world">World</option>' +
-                    '<option value="united_kingdom">United Kingdom</option>' +
-                    '<option value="united_states_of_america">United States</option>';
-                document.getElementById('visualize-btn').disabled = false;
-            });
+        // Load list of available data files and convert to readable names
+        const availableCountries = [
+            { value: 'aruba', label: 'Aruba' },
+            { value: 'australia___new_zealand', label: 'Australia + New Zealand' },
+            { value: 'bermuda', label: 'Bermuda' },
+            { value: 'bolivia__plurinational_state_of_', label: 'Bolivia (Plurinational State of)' },
+            { value: 'c_te_d_ivoire', label: "Côte d'Ivoire" },
+            { value: 'china__hong_kong_sar', label: 'China, Hong Kong SAR' },
+            { value: 'china__macao_sar', label: 'China, Macao SAR' },
+            { value: 'china__mainland', label: 'China, Mainland' },
+            { value: 'china__taiwan_province_of', label: 'China, Taiwan Province of' },
+            { value: 'czech_republic', label: 'Czech Republic' },
+            { value: 'democratic_people_s_republic_of_korea', label: "Democratic People's Republic of Korea" },
+            { value: 'eu____ex_int', label: 'EU (ex INT)' },
+            { value: 'european_union', label: 'European Union' },
+            { value: 'european_union__exc_intra_trade_', label: 'European Union (exc. intra-trade)' },
+            { value: 'iran__islamic_republic_of_', label: 'Iran (Islamic Republic of)' },
+            { value: 'land_locked_developing_countries', label: 'Land Locked Developing Countries' },
+            { value: 'lao_people_s_democratic_republic', label: "Lao People's Democratic Republic" },
+            { value: 'least_developed_countries', label: 'Least Developed Countries' },
+            { value: 'low_income_food_deficit_countries', label: 'Low Income Food Deficit Countries' },
+            { value: 'net_food_importing_developing_countries', label: 'Net Food Importing Developing Countries' },
+            { value: 'netherlands', label: 'Netherlands' },
+            { value: 'netherlands_antilles', label: 'Netherlands Antilles' },
+            { value: 'occupied_palestinian_territory', label: 'Occupied Palestinian Territory' },
+            { value: 'small_island_developing_states', label: 'Small Island Developing States' },
+            { value: 'sudan__former_', label: 'Sudan (former)' },
+            { value: 'swaziland', label: 'Swaziland' },
+            { value: 'the_former_yugoslav_republic_of_macedonia', label: 'The former Yugoslav Republic of Macedonia' },
+            { value: 'turkey', label: 'Turkey' },
+            { value: 'united_kingdom', label: 'United Kingdom' },
+            { value: 'venezuela__bolivarian_republic_of_', label: 'Venezuela (Bolivarian Republic of)' }
+        ];
+        
+        // Sort by label
+        availableCountries.sort((a, b) => a.label.localeCompare(b.label));
+        
+        const select = document.getElementById('country-select');
+        select.innerHTML = availableCountries.map(country => 
+            `<option value="${country.value}">${country.label}</option>`
+        ).join('');
+        
+        // Set default to United Kingdom
+        select.value = 'united_kingdom';
+        
+        document.getElementById('visualize-btn').disabled = false;
     }
     
     function onVisualize() {
@@ -345,7 +363,40 @@
     }
     
     function formatCountryName(country) {
-        return country.split('_').map(word => 
+        const countryMap = {
+            'aruba': 'Aruba',
+            'australia___new_zealand': 'Australia + New Zealand',
+            'bermuda': 'Bermuda',
+            'bolivia__plurinational_state_of_': 'Bolivia (Plurinational State of)',
+            'c_te_d_ivoire': "Côte d'Ivoire",
+            'china__hong_kong_sar': 'China, Hong Kong SAR',
+            'china__macao_sar': 'China, Macao SAR',
+            'china__mainland': 'China, Mainland',
+            'china__taiwan_province_of': 'China, Taiwan Province of',
+            'czech_republic': 'Czech Republic',
+            'democratic_people_s_republic_of_korea': "Democratic People's Republic of Korea",
+            'eu____ex_int': 'EU (ex INT)',
+            'european_union': 'European Union',
+            'european_union__exc_intra_trade_': 'European Union (exc. intra-trade)',
+            'iran__islamic_republic_of_': 'Iran (Islamic Republic of)',
+            'land_locked_developing_countries': 'Land Locked Developing Countries',
+            'lao_people_s_democratic_republic': "Lao People's Democratic Republic",
+            'least_developed_countries': 'Least Developed Countries',
+            'low_income_food_deficit_countries': 'Low Income Food Deficit Countries',
+            'net_food_importing_developing_countries': 'Net Food Importing Developing Countries',
+            'netherlands': 'Netherlands',
+            'netherlands_antilles': 'Netherlands Antilles',
+            'occupied_palestinian_territory': 'Occupied Palestinian Territory',
+            'small_island_developing_states': 'Small Island Developing States',
+            'sudan__former_': 'Sudan (former)',
+            'swaziland': 'Swaziland',
+            'the_former_yugoslav_republic_of_macedonia': 'The former Yugoslav Republic of Macedonia',
+            'turkey': 'Turkey',
+            'united_kingdom': 'United Kingdom',
+            'venezuela__bolivarian_republic_of_': 'Venezuela (Bolivarian Republic of)'
+        };
+        
+        return countryMap[country] || country.split('_').map(word => 
             word.charAt(0).toUpperCase() + word.slice(1)
         ).join(' ');
     }
